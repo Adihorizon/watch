@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Watch Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            flex-wrap: wrap; 
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            flex-grow: 1; /* Allow nav to take available space */
+            text-align: center; /* Center the nav items */
+        }
+
+        nav ul {
+            display: flex; /* Use flexbox for horizontal layout */
+            justify-content: center; /* Center nav items */
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Remove margin to center nav properly */
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Space between nav items */
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px; /* Added padding for better click area */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+        }
+
+        h1 {
+            margin: 0;
+        }
+        .buy-now-button {
+            background-color: #007bff; /* Blue background */
+            color: white; 
+            border: none; 
+            padding: 10px 15px; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+        .buy-now-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        .sign-in-button {
+            background-color: #28a745; /* Green background */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 10px 15px; /* Padding */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        .sign-in-button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        /* Center button in each card */
+        .card-body {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            justify-content: space-between; /* Ensure space between content and button */
+            align-items: center; /* Center horizontally */
+            text-align: center;
+            height: 250px; /* Fixed height for consistency */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trend Watches</h1>
+        <nav>
+            <ul>
+                <li><a href="./watch.html">Home</a></li>
+                <li><a href="" style="color: rgb(56, 213, 56);">All Watches</a></li>
+                <li><a href="./aboutw.html">About Us</a></li>
+                <li><a href="./w-contact.html">Contact</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-1.webp" class="card-img-top" alt="Watch 1">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Guess</b><br></h3>
+                        <h5>Men's Green Dial Analog Stainless Steel Watch</h5>
+                        <h4>Rs-9,899</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-2.webp" class="card-img-top" alt="Watch 2">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Guess</b></h3>
+                        <h5>Men's Green Dial Multi-function Silicone Strap Watch </h5>
+                        <h4>Rs-19,899</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-3.webp" class="card-img-top" alt="Watch 3">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Guess</b></h3>
+                        <h5>Men's Grey Analog Stainless Steel Watch</h5>
+                            <h4>Rs-16,999</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-4.webp" class="card-img-top" alt="Watch 4">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Casio</b></h3>
+                        <h5>Enticer Men's Analog Stainless Steel Watch</h5>
+                            <h4>Rs-2,999</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-5.webp" class="card-img-top" alt="Watch 5">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Casio</b></h3>
+                        <h5>Enticer Men's Analog Stainless Steel Watch</h5>
+                            <h4>Rs-7,000</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-6.webp" class="card-img-top" alt="Watch 6">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Casio</b></h3>
+                        <h5>Enticer Men's Analog Leather Watch </h5>
+                            <h4>Rs-2,899</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-7.webp" class="card-img-top" alt="Watch 7">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Seiko</b></h3>
+                        <h5>New 5 Sports Men's Blue Analog Stainless Steel Automatic Watch</h5>
+                            <h4>Rs-49,999</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img src="watch-8.webp" class="card-img-top" alt="Watch 8">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Seiko</b></h3>
+                        <h5>New 5 Sports Men's Black Analog Stainless Steel Automatic Watch</h5>
+                            <h4>Rs-30,000</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch-9.webp" class="card-img-top" alt="Watch 9">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Seiko</b></h3>
+                        <h5>Prospex Men's Blue Automatic Silicon Watch</h5>
+                            <h4>Rs-55,000</h4>
+                        <button class="buy-now-button">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+    <footer>
+        <p>All Brands New Collection, 2024</p>
+    </footer>
+</body>
+</html>

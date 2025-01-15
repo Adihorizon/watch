@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Watch Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            flex-wrap: wrap; 
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            flex-grow: 1; /* Allow nav to take available space */
+            text-align: center; /* Center the nav items */
+        }
+
+        nav ul {
+            display: flex; /* Use flexbox for horizontal layout */
+            justify-content: center; /* Center nav items */
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Remove margin to center nav properly */
+        }
+
+        nav ul li {
+            margin: 0 15px; /* Space between nav items */
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px; /* Added padding for better click area */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+        }
+
+        h1 {
+            margin: 0;
+        }
+   
+        .sign-in-button {
+            background-color: #28a745; /* Green background */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 10px 15px; /* Padding */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        .sign-in-button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+      
+      
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+.contact-form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Trend Watches</h1>
+            <nav>
+                <ul>
+                    <li><a href="./watch.html">Home</a></li>
+                    <li><a href="./all watches.html" >All Watches</a></li>
+                    <li><a href="./aboutw.html">About Us</a></li>
+                    <li><a href="#contact" style="color: rgb(56, 213, 56);">Contact</a></li>
+                </ul>
+            </nav>
+           
+        </header>
+        <main class="container">
+            <div class="contact-form">
+                <h2>How Can I help you!</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+    
+            <div class="contact-info">
+                <h2><B>Our Location</B></h2>
+                <p>Trend Watches</p>
+                <p>12, kalawad Street</p>
+                <p>Rajkot, Gujarat, 360003</p>
+                <p><b>Email:</b> treandsw@gmail.co</p>
+                <p><b>Phone:</b> (123) 456-7890</p>
+            </div>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Trend Watches. All rights reserved.</p>
+        </footer>
+    
+    
+    </body>
+</html>
